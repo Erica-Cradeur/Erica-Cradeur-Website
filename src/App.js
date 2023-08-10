@@ -10,7 +10,6 @@ function App() {
         <a href="#projects">Projects</a>
         <a href="#contact">Contact Me</a>
       </div>
-      {/* Add the rest of your content here */}
     </div>
   );
 }
