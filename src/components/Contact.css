@@ -14,6 +14,7 @@
 
 .contactMe {
     padding: 2em;
+    color: white; 
 }
 
 .sendButton {
@@ -34,6 +35,7 @@
     border-width: thick;
     border-radius: 2em;
     text-shadow: .1em .1em .5em grey;
+    box-shadow: .5em .5em 2em #776d6a;
 }
 
 .send:hover{

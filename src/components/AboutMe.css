@@ -15,9 +15,9 @@
   .aboutmeparagraph {
     background-color: #E9CCB1;
     border-radius: 2em;
-    font-size: 0.75em;
-    padding: 1em;
-    font-weight: lighter;
+    font-size: 1em;
+    padding: 2em;
+    font-weight: 400;
   }
   
   .content {
@@ -35,10 +35,11 @@
   
   .right-side {
     flex: 1;
+    padding-right: 2em;
   }
 
   .right-side img{
-    max-width: 80%;
+    width: 20em;
     height: auto;
     border-radius: 100%;
     border-color: #E9CCB1;

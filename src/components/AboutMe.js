@@ -10,9 +10,11 @@ function AboutMe() {
         <div className="left-side">
           <p className="aboutmeparagraph">
             <span>
-              Hello, I'm Erica Cradeur, an associate network engineer at Valmont Industries, Inc. My journey began as a network engineer intern during my college years at Creighton University, where I graduated with a double major in Computer Science & Informatics and Digital Development, along with a minor in Business Administration. While I initially focused on networking and cybersecurity, my true passion lies in web development, software engineering, front-end development, and UI/UX design. I aim to craft seamless and visually captivating digital experiences, drawing on my diverse skill set and business acumen to integrate cutting-edge technologies for optimal results.
-              As a dedicated professional, my discipline, resilience, and problem-solving skills were honed during my time as a student-athlete, participating in cross country and track & field on scholarship. Now, in the tech industry, I'm committed to leveraging these qualities to achieve outstanding outcomes in every project I undertake. My goal is to connect with like-minded individuals who share my enthusiasm for technology and innovation, fostering collaboration and learning from one another.
-              Thank you for visiting my website! If you're interested in exploring tech-related discussions or potential opportunities, feel free to reach out. Let's make a positive impact together in the world of web development and software engineering!
+            Hello, Thank you for visiting my website! <br />
+            I am passionate about web development, software engineering, and UI/UX design. <br />
+            With a background in networking and cybersecurity, I specialize in crafting seamless digital experiences. <br />
+            My goal is to connect with like-minded individuals and make a positive impact in the world of technology. <br />
+            Feel free to reach out for tech-related discussions or opportunities!
             </span>
           </p>
         </div>

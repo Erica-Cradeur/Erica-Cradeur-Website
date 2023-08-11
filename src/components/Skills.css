@@ -11,3 +11,20 @@
     color: white;
     text-shadow: .1em .1em .5em grey;
 }  
+
+.skillList {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .skillRow {
+    display: table-row;
+  }
+  
+  .SkillIcon {
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 8px;
+    height: 1px;
+  }
