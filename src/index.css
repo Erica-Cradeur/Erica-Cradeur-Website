@@ -79,6 +79,7 @@ p{
   font-style: normal;
   line-height: 1.5em;
   letter-spacing: 0.2em;
+  margin: 0;
 }
 
 .welcomesection{
@@ -184,26 +185,50 @@ p.landing{
 	}
 }
 
-.aboutmesection {
+.aboutme {
   background-color: #929A85;
   height: 100vh;
   width: 100%;
+  padding-top: 7em;
 }
 
-.skillssection {
-  background-color: #6A725D;
+.aboutmeheader{
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.skills {
+  background-color: #E4DAC2;
   height: 100vh;
   width: 100%;
+  padding-top: 7em;
 }
 
-.projectssection {
-  background-color: #6A725D;
+.skillsheader{
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.projects {
+  background-color: #b7bdaf;
   height: 100vh;
   width: 100%;
+  padding-top: 7em;
 }
 
-.contactsection {
+.projectsheader{
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.contacts {
   background-color: #E9CCB1;
   height: 100vh;
   width: 100%;
+  padding-top: 7em;
+}
+
+.contactheader{
+  font-size: 1.25em;
+  font-weight: bold;
 }
