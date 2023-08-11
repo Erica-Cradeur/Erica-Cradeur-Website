@@ -16,6 +16,7 @@
     display: table;
     width: 100%;
     border-collapse: collapse;
+    margin-top: 15em;
   }
   
   .skillRow {
@@ -24,7 +25,21 @@
   
   .SkillIcon {
     display: table-cell;
-    border: 1px solid #ccc;
     padding: 8px;
-    height: 1px;
+    height: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-color: white;
+    border-width: thick;
+  }
+
+  .skillList img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+    
+    background-color: #929A85;
+    padding: 1em;
+    border-radius: 1em;
   }
