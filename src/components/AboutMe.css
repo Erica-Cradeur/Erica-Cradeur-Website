@@ -1,0 +1,42 @@
+.aboutme {
+    background-color: #929A85;
+    height: 100vh;
+    width: 100%;
+    padding-top: 7em;
+  }
+  
+  .aboutmeheader{
+    font-size: 1.25em;
+    font-weight: bold;
+    color: white;
+    text-shadow: .1em .1em .5em #979a85;
+  }
+  
+  .aboutmeparagraph {
+    background-color: #E9CCB1;
+    border-radius: 2em;
+    font-size: 1.5vh;
+    padding: 1em;
+    font-weight: lighter;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5em;
+  }
+  
+  .left-side {
+    flex: 2;
+    padding-right: 2em;
+  }
+  
+  .right-side {
+    flex: 1;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }

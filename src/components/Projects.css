@@ -1,0 +1,13 @@
+.projects {
+    background-color: #b7bdaf;
+    height: 100vh;
+    width: 100%;
+    padding-top: 7em;
+}
+  
+.projectsheader{
+    font-size: 1.25em;
+    font-weight: bold;
+    color: white;
+    text-shadow: .1em .1em .5em #979a85;
+}
