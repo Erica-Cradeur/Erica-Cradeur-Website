@@ -195,6 +195,38 @@ p.landing{
 .aboutmeheader{
   font-size: 1.25em;
   font-weight: bold;
+  color: white;
+  text-shadow: .1em .1em .5em #979a85;
+}
+
+.aboutmeparagraph {
+  background-color: #E9CCB1;
+  border-radius: 2em;
+  font-size: 1.5vh;
+  padding: 1em;
+  font-weight: lighter;
+}
+
+/* Define styles for the left and right sides */
+.content {
+  display: flex; /* Use flexbox for easy positioning */
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Space between the left and right sides */
+  padding: 5em; /* Add some padding for spacing */
+}
+
+.left-side {
+  flex: 2; /* Take up remaining space in the flex container */
+  padding-right: 2em; /* Add some right padding to separate from the image */
+}
+
+.right-side {
+  flex: 1; /* Take up remaining space in the flex container */
+}
+
+img {
+  max-width: 100%; /* Make sure the image doesn't exceed its container */
+  height: auto; /* Maintain the aspect ratio of the image */
 }
 
 .skills {
@@ -207,6 +239,8 @@ p.landing{
 .skillsheader{
   font-size: 1.25em;
   font-weight: bold;
+  color: white;
+  text-shadow: .1em .1em .5em #979a85;
 }
 
 .projects {
@@ -219,6 +253,8 @@ p.landing{
 .projectsheader{
   font-size: 1.25em;
   font-weight: bold;
+  color: white;
+  text-shadow: .1em .1em .5em #979a85;
 }
 
 .contacts {
@@ -231,4 +267,6 @@ p.landing{
 .contactheader{
   font-size: 1.25em;
   font-weight: bold;
+  color: white;
+  text-shadow: .1em .1em .5em #979a85;
 }
