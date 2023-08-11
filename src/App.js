@@ -1,17 +1,15 @@
 import React from 'react';
 import './App.css';
+import ImageComponent from './ImageComponent.js';
+import Welcome from './Welcome.js';
+import Navbar from './Navbar.js';
 
 function App() {
   return (
     <div className="App">
-      <div className="navbar">
-        <a href="#aboutme">About Me</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contacts">Contact Me</a>
-      </div>
+      <Navbar />
+      <Welcome />
     </div>
-    
   );
 }
 
