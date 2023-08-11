@@ -1,13 +1,58 @@
-.contacts {
+.contact-section{
     background-color: #E9CCB1;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     padding-top: 7em;
 }
   
-.contactheader {
-    font-size: 1.25em;
+.contact-header {
+    font-size: 30px;
     font-weight: bold;
     color: white;
-    text-shadow: .1em .1em .5em #979a85;
+    text-shadow: .1em .1em .5em grey;
+}
+
+.contactMe {
+    padding: 2em;
+}
+
+.sendButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.send {
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: #AB9D98;
+    border-style: solid;
+    border-color: #AB9D98;
+    border-width: thick;
+    border-radius: 2em;
+    text-shadow: .1em .1em .5em grey;
+}
+
+.send:hover{
+    background-color: #E9CCB1;
+    border-color: #AB9D98;
+    border-width: thick;
+    transform: scale(1.01);
+}
+
+.emailText{
+    font-weight: bold;
+    color: white;
+}
+
+.emailAddressText{
+    color: white;
+}
+
+.sendText{
+    font-weight: 500;
+    color: white;
 }

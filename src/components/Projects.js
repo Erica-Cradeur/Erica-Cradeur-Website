@@ -3,8 +3,8 @@ import './Projects.css';
 
 function Projects() {
   return (
-    <div id= "projects" class="projects">
-        <p><span class="projectsheader">Projects</span></p>
+    <div id= "projects" className="projects">
+        <p><span className="projectsheader">Projects</span></p>
     </div>
   );
 }
