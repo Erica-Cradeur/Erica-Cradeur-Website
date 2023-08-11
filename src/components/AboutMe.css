@@ -15,7 +15,7 @@
   .aboutmeparagraph {
     background-color: #E9CCB1;
     border-radius: 2em;
-    font-size: 1.5vh;
+    font-size: 0.75em;
     padding: 1em;
     font-weight: lighter;
   }
@@ -24,7 +24,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5em;
+    height: 75vh;
+    padding-left: 5em;
   }
   
   .left-side {
@@ -35,8 +36,12 @@
   .right-side {
     flex: 1;
   }
-  
-  img {
-    max-width: 100%;
+
+  .right-side img{
+    max-width: 80%;
     height: auto;
+    border-radius: 100%;
+    border-color: #E9CCB1;
+    border-style: solid;
+    border-width: 1em;
   }

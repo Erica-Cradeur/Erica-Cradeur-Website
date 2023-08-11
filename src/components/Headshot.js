@@ -3,7 +3,7 @@ import React from 'react';
 function Headshot() {
   return (
     <div>
-      <img src="%PUBLIC_URL%/headshot.jpeg" alt="EricaCradeurHeadshot" />
+      <img src={process.env.PUBLIC_URL + '/headshot.jpeg'} alt="headshot" />
     </div>
   );
 }

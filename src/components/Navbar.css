@@ -4,7 +4,7 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 40em;
+    width: 45em;
     height: 3em;
     border-radius: 3.1em;
     background: #6A725D;
@@ -46,4 +46,9 @@
     padding-right: 2.5em;
     background-color: rgba(255, 255, 255, 0.5);
     pointer-events: none; 
+  }
+
+  .iconWhite{
+    height: 1.75em;
+    width: auto;
   }

@@ -3,7 +3,7 @@ import './Welcome.css';
 
 function Welcome() {
   return (
-    <div className="welcomesection">
+    <div id="welcome" className="welcomesection">
         <div className="wrapper">
             <span></span>
             <span></span>
