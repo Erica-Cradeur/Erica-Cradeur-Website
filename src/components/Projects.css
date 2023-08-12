@@ -1,6 +1,6 @@
 .projects {
     background-color: #b7bdaf;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     padding-top: 7em;
 }
@@ -11,3 +11,29 @@
     color: white;
     text-shadow: .1em .1em .5em grey;
 }
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40vh;
+    padding: 3em;
+
+    background-color: white;
+  }
+  
+  .projectImage {
+    flex: 1;
+    padding-right: 2em;
+  }
+  
+  .projectDescription {
+    flex: 1;
+    padding-right: 2em;
+  }
+
+  .projectImage img{
+    width: 20em;
+    height: auto;
+    border-radius: 1em;
+  }
