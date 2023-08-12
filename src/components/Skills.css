@@ -1,6 +1,6 @@
 .skills {
-    background-color: #E4DAC2;
-    height: 100vh;
+    background-color: #929A85;
+    height: 70vh;
     width: 100%;
     padding-top: 7em;
 }
@@ -16,7 +16,10 @@
     display: table;
     width: 100%;
     border-collapse: collapse;
-    margin-top: 15em;
+    margin-top: 5em;
+
+    display: grid;
+    place-items: center;
   }
   
   .skillRow {
@@ -24,22 +27,24 @@
   }
   
   .SkillIcon {
-    display: table-cell;
-    padding: 8px;
-    height: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
     text-align: center;
+    display: table-cell;
+    padding: 0.5em;
+    height: 5em;
     vertical-align: middle;
     border-color: white;
     border-width: thick;
   }
 
   .skillList img{
+    height: 5em;
     max-width: 100%;
-    height: auto;
     display: block;
 
-    
-    background-color: #929A85;
+
+    background-color: white;
     padding: 1em;
     border-radius: 1em;
   }

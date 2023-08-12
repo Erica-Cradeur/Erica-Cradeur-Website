@@ -1,6 +1,6 @@
 .aboutme {
     background-color: #929A85;
-    height: 100vh;
+    height: 75vh;
     width: 100%;
     padding-top: 7em;
   }
@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 75vh;
+    height: 50vh;
     padding-left: 5em;
   }
   

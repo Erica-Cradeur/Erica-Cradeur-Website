@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe.js';
 import Skills from './components/Skills.js';
 import Projects from './components/Projects';
 import Contact from './components/Contact.js';
+import FlowerRow from './components/FlowerRow.js';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Welcome />
       <AboutMe />
+      <FlowerRow />
       <Skills />
       <Projects />
       <Contact />
