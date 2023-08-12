@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <div className="navbarSection">
       <div className="navbar">
-        <a href="#welcome" onClick={(e) => scrollToSection(e, 'welcome')}><img className="iconWhite" src={process.env.PUBLIC_URL + '/iconWhite.png'} alt="logo" /></a>
+        <a href="#welcome" onClick={(e) => scrollToSection(e, 'welcome')}><img className="iconWhite" src={process.env.PUBLIC_URL + '/ecFlower.png'} alt="logo" /></a>
         <a href="#aboutme" onClick={(e) => scrollToSection(e, 'aboutme')}>About Me</a>
         <a href="#skills" onClick={(e) => scrollToSection(e, 'skills')}>Skills</a>
         <a href="#projects" onClick={(e) => scrollToSection(e, 'projects')}>Projects</a>

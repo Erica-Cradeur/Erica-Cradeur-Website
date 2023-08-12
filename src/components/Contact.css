@@ -1,4 +1,7 @@
 .contact-section{
+    /* background-image: url("src/components/flowerBackground.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #E9CCB1;
     height: 70vh;
     width: 100%;
