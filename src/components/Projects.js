@@ -59,7 +59,7 @@ function Projects() {
               <span className="projectAbout">
                 Experience the convenience of a sleek and user-friendly calculator Progressive Web App (PWA) that effortlessly handles your mathematical needs on any device.
               </span><br />
-              <a href="https://erica-cradeur.github.io/calculator/"><img className="linkIcon" src={process.env.PUBLIC_URL + './arrowUp.svg'} alt="ArrowUp" /></a>
+              <a href="https://erica-cradeur.github.io/calculator/"><img className="linkIcon" src={process.env.PUBLIC_URL + '/arrowUp.svg'} alt="ArrowUp" /></a>
               <a href="https://github.com/Erica-Cradeur/calculator"><img className="linkIcon" src={process.env.PUBLIC_URL + './github.svg'} alt="GitHub" /></a>
             </div>
           </div>
