@@ -8,7 +8,7 @@ function Skills() {
         <p><span className="skillsheader">Skills</span></p>
         <div className="skillList">
           <div className="skillRow">
-            <div className="SkillIcon"><img src={process.env.PUBLIC_URL + './SkillsImgs/js.png'} alt="JavaScript" />JavaScript</div>
+            <div className="SkillIcon"><img src={process.env.PUBLIC_URL + './js.png'} alt="JavaScript" />JavaScript</div>
             <div className="SkillIcon"><img src={process.env.PUBLIC_URL + './SkillsImgs/html.png'} alt="HTML" />HTML</div>
             <div className="SkillIcon"><img src={process.env.PUBLIC_URL + './SkillsImgs/css.png'} alt="CSS" />CSS3</div>
             <div className="SkillIcon"><img src={process.env.PUBLIC_URL + './SkillsImgs/typescript.png'} alt="Typescript" />Typescript</div>
