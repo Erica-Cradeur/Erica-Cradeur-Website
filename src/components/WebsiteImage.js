@@ -1,9 +1,17 @@
 import React from 'react';
+import Carousel from './Carousel';
 
 function WebsiteImage() {
+  const images = [
+    './WebsiteScreenshot.png',
+    'https://source.unsplash.com/random?landscape,cars',
+    'https://source.unsplash.com/random?landscape,night',
+    'https://source.unsplash.com/random?landscape,city',
+  ];
+
   return (
     <div>
-      <img src={process.env.PUBLIC_URL + './WebsiteScreenshot.png'} alt="WebsiteImage" />
+      <Carousel images={images} />
     </div>
   );
 }

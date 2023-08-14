@@ -1,14 +1,13 @@
 import React from 'react';
 import './Projects.css';
 import WebsiteImage from './WebsiteImage.js';
-import WebsiteProject from './WebsiteProject';
-import CalculatorProject from './CalculatorProject';
 
 function Projects() {
   return (
     <div id= "projects" className="projects">
+      
         <p><span className="projectsheader">Projects</span></p>
-
+        
 
         <div id="projectsList" className="projectsList">
           <div className="project">
@@ -39,7 +38,7 @@ function Projects() {
         <div id="projectsList" className="projectsList">
           <div className="project">
             <div className="projectImage">
-                <CalculatorProject />
+
             </div>
             <div className="projectDescription">
               <div className="projectSkills">

@@ -1,23 +1,35 @@
 import React, { useState } from 'react';
 
-const Carousel = ({ images }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+function Carousel({ images }) {
+  const [curSlide, setCurSlide] = useState(0);
 
-  const handlePrevClick = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
+  const nextSlide = () => {
+    setCurSlide((prevSlide) => (prevSlide === images.length - 1 ? 0 : prevSlide + 1));
   };
 
-  const handleNextClick = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+  const prevSlide = () => {
+    setCurSlide((prevSlide) => (prevSlide === 0 ? images.length - 1 : prevSlide - 1));
   };
 
   return (
-    <div className="carousel">
-      <button onClick={handlePrevClick}>Previous</button>
-      <img src={images[currentIndex]} alt={`Image ${currentIndex}`} />
-      <button onClick={handleNextClick}>Next</button>
+    <div className="slider">
+      {images.map((image, index) => (
+        <div
+          key={index}
+          className={`slide ${index === curSlide ? 'active' : ''}`}
+          style={{ transform: `translateX(${100 * (index - curSlide)}%)` }}
+        >
+          <img src={image} alt={`Slide ${index}`} />
+        </div>
+      ))}
+      <button className="btn btn-next" onClick={nextSlide}>
+        <img className="NextButton" src={process.env.PUBLIC_URL + './caret-right-solid.svg'} alt="Next" />
+      </button>
+      <button className="btn btn-prev" onClick={prevSlide}>
+        <img className="BackButton" src={process.env.PUBLIC_URL + './caret-left-solid.svg'} alt="Back" />
+      </button>
     </div>
   );
-};
+}
 
 export default Carousel;
