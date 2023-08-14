@@ -23,10 +23,10 @@ function Carousel({ images }) {
         </div>
       ))}
       <button className="btn btn-next" onClick={nextSlide}>
-        <img className="NextButton" src={process.env.PUBLIC_URL + './arrow-right-solid.svg'} alt="Next" />
+        <img className="NextButton" src={process.env.PUBLIC_URL + '/arrow-right-solid.svg'} alt="Next" />
       </button>
       <button className="btn btn-prev" onClick={prevSlide}>
-        <img className="BackButton" src={process.env.PUBLIC_URL + './arrow-left-solid.svg'} alt="Back" />
+        <img className="BackButton" src={process.env.PUBLIC_URL + '/arrow-left-solid.svg'} alt="Back" />
       </button>
     </div>
   );

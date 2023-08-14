@@ -35,7 +35,7 @@ function Projects() {
               </span><br />
               <a href="https://erica-cradeur.github.io/Erica-Cradeur-Website/"><img className="linkIcon" src={process.env.PUBLIC_URL + '/arrowUp.svg'} alt="ArrowUp" /></a>
               <a href="https://github.com/Erica-Cradeur/Erica-Cradeur-Website"><img className="linkIcon" src={process.env.PUBLIC_URL + '/github.svg'} alt="GitHub" /></a>
-              <a href="https://www.figma.com/file/o3JkVabwVvTI4OIkOxxexr/Cradeur-Portfolio-Website?type=design&node-id=1%3A4&mode=design&t=edlBB5UTVVgGfqxE-1"><img className="linkIcon" src={process.env.PUBLIC_URL + './figma.svg'} alt="Figma" /></a>
+              <a href="https://www.figma.com/file/o3JkVabwVvTI4OIkOxxexr/Cradeur-Portfolio-Website?type=design&node-id=1%3A4&mode=design&t=edlBB5UTVVgGfqxE-1"><img className="linkIcon" src={process.env.PUBLIC_URL + '/figma.svg'} alt="Figma" /></a>
             </div>
           </div>
         </div>
@@ -82,8 +82,8 @@ function Projects() {
               <span className="projectAbout">
                 Runverse is an application that enables users to input their running data, generates a formatted log, and facilitates seamless email submission to coaches, streamlining the process of sharing weekly running logs.
               </span><br />
-              <a href="https://erica-cradeur.github.io/Runverse/"><img className="linkIcon" src={process.env.PUBLIC_URL + './arrowUp.svg'} alt="ArrowUp" /></a>
-              <a href="https://github.com/Erica-Cradeur/Runverse"><img className="linkIcon" src={process.env.PUBLIC_URL + './github.svg'} alt="GitHub" /></a>
+              <a href="https://erica-cradeur.github.io/Runverse/"><img className="linkIcon" src={process.env.PUBLIC_URL + '/arrowUp.svg'} alt="ArrowUp" /></a>
+              <a href="https://github.com/Erica-Cradeur/Runverse"><img className="linkIcon" src={process.env.PUBLIC_URL + '/github.svg'} alt="GitHub" /></a>
             </div>
           </div>
         </div>
@@ -103,8 +103,8 @@ function Projects() {
               <span className="projectAbout">
               a redesigned article of a Wikipedia page with a sleeker, simpler, and easier read.
               </span><br />
-              <a href="https://erica-cradeur.github.io/WikipediaRedesign/"><img className="linkIcon" src={process.env.PUBLIC_URL + './arrowUp.svg'} alt="ArrowUp" /></a>
-              <a href="https://github.com/Erica-Cradeur/WikipediaRedesign"><img className="linkIcon" src={process.env.PUBLIC_URL + './github.svg'} alt="GitHub" /></a>
+              <a href="https://erica-cradeur.github.io/WikipediaRedesign/"><img className="linkIcon" src={process.env.PUBLIC_URL + '/arrowUp.svg'} alt="ArrowUp" /></a>
+              <a href="https://github.com/Erica-Cradeur/WikipediaRedesign"><img className="linkIcon" src={process.env.PUBLIC_URL + '/github.svg'} alt="GitHub" /></a>
             </div>
           </div>
         </div>
