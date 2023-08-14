@@ -1,6 +1,6 @@
 .projects {
     background-color: #b7bdaf;
-    height: 300vh;
+    height: 210vh;
     width: 100%;
     padding-top: 7em;
 }
@@ -62,7 +62,7 @@
 
   .projectAbout {
     line-height: 1.5em;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 1em;
     color: black;
   }
@@ -107,13 +107,13 @@
   .btn-prev {
     top: 45%;
     left: 5%;
-    filter: drop-shadow(.5em .5em 1.5em white);
+    filter: drop-shadow(.5em .5em 1.5em #6A725D);
   }
   
   .btn-next {
     top: 45%;
     right: 9.5%;
-    filter: drop-shadow(.5em .5em 1.5em white);
+    filter: drop-shadow(.5em .5em 1.5em #6A725D);
   }
 
   .linkIcon{

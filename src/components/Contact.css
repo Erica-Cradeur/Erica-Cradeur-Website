@@ -1,5 +1,4 @@
 .contact-section{
-    background-color: #E9CCB1;
     height: 70vh;
     width: 100%;
     padding-top: 7em;
@@ -8,13 +7,13 @@
 .contact-header {
     font-size: 30px;
     font-weight: bold;
-    color: white;
+    color: black;
     text-shadow: .1em .1em .5em grey;
 }
 
 .contactMe {
     padding: 2em;
-    color: white; 
+    color: black; 
 }
 
 .sendButton {
@@ -29,7 +28,7 @@
     padding-right: 6em;
     padding-top: 3em;
     padding-bottom: 3em;
-    background-color: #AB9D98;
+    background-color: transparent;
     border-style: solid;
     border-color: #AB9D98;
     border-width: thick;
@@ -39,22 +38,22 @@
 }
 
 .send:hover{
-    background-color: #E9CCB1;
+    background-color: #AB9D98;
     border-color: #AB9D98;
     border-width: thick;
-    transform: scale(1.01);
+    transform: scale(1.05);
 }
 
 .emailText{
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .emailAddressText{
-    color: white;
+    color: black;
 }
 
 .sendText{
     font-weight: 500;
-    color: white;
+    color: black;
 }

@@ -7,8 +7,9 @@ import Projects from './components/Projects';
 import Contact from './components/Contact.js';
 import FlowerRow from './components/FlowerRow.js';
 
+
 function App() {
-  return (
+   return (
     <div className="App">
       <Navbar />
       <Welcome />

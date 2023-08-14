@@ -3,10 +3,10 @@ import Carousel from './Carousel';
 
 function WebsiteImage() {
   const images = [
-    './WebsiteScreenshot.png',
-    'https://source.unsplash.com/random?landscape,cars',
-    'https://source.unsplash.com/random?landscape,night',
-    'https://source.unsplash.com/random?landscape,city',
+    './website1.PNG',
+    './website2.PNG',
+    './website3.PNG',
+    './website4.PNG',
   ];
 
   return (
