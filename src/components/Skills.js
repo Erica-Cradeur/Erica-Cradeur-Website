@@ -21,7 +21,7 @@ function Skills() {
           </div>
           <div className="skillRow">
             <div className="SkillIcon"><img src={process.env.PUBLIC_URL + './SkillsImgs/figma.png'} alt="Figma" />Figma</div>
-            <div className="SkillIcon"><img src={process.env.PUBLIC_URL + './SkillsImgs/github.png'} alt="Github" />Github</div>
+            <div className="SkillIcon"><img src={process.env.PUBLIC_URL + 'public/SkillsImgs/github.png'} alt="Github" />Github</div>
             <div className="SkillIcon"><img src={process.env.PUBLIC_URL + './SkillsImgs/ps.png'} alt="Photoshop" />Photoshop</div>
             <div className="SkillIcon"><img src={process.env.PUBLIC_URL + './SkillsImgs/mongo.png'} alt="MongoDB" />MongoDB</div>
             <div className="SkillIcon"><img src={process.env.PUBLIC_URL + './SkillsImgs/python.png'} alt="Python" />Python</div>
