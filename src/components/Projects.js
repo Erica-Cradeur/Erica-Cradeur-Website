@@ -33,8 +33,8 @@ function Projects() {
               <span className="projectAbout">
                 Carefully curated and thoughtfully designed using Figma, my online portfolio serves as a captivating platform to explore a comprehensive display of my diverse skills, impactful projects, and valuable experience.
               </span><br />
-              <a href="https://erica-cradeur.github.io/Erica-Cradeur-Website/"><img className="linkIcon" src={process.env.PUBLIC_URL + './arrowUp.svg'} alt="ArrowUp" /></a>
-              <a href="https://github.com/Erica-Cradeur/Erica-Cradeur-Website"><img className="linkIcon" src={process.env.PUBLIC_URL + './github.svg'} alt="GitHub" /></a>
+              <a href="https://erica-cradeur.github.io/Erica-Cradeur-Website/"><img className="linkIcon" src={process.env.PUBLIC_URL + '/arrowUp.svg'} alt="ArrowUp" /></a>
+              <a href="https://github.com/Erica-Cradeur/Erica-Cradeur-Website"><img className="linkIcon" src={process.env.PUBLIC_URL + '/github.svg'} alt="GitHub" /></a>
               <a href="https://www.figma.com/file/o3JkVabwVvTI4OIkOxxexr/Cradeur-Portfolio-Website?type=design&node-id=1%3A4&mode=design&t=edlBB5UTVVgGfqxE-1"><img className="linkIcon" src={process.env.PUBLIC_URL + './figma.svg'} alt="Figma" /></a>
             </div>
           </div>
@@ -60,7 +60,7 @@ function Projects() {
                 Experience the convenience of a sleek and user-friendly calculator Progressive Web App (PWA) that effortlessly handles your mathematical needs on any device.
               </span><br />
               <a href="https://erica-cradeur.github.io/calculator/"><img className="linkIcon" src={process.env.PUBLIC_URL + '/arrowUp.svg'} alt="ArrowUp" /></a>
-              <a href="https://github.com/Erica-Cradeur/calculator"><img className="linkIcon" src={process.env.PUBLIC_URL + './github.svg'} alt="GitHub" /></a>
+              <a href="https://github.com/Erica-Cradeur/calculator"><img className="linkIcon" src={process.env.PUBLIC_URL + '/github.svg'} alt="GitHub" /></a>
             </div>
           </div>
         </div>
