@@ -16,7 +16,7 @@ function Contact() {
         <div className="sendButton">
           <a className="emailLink" href={emailLink}>
             <button className= "send">
-            <img className="linkIcon" src={process.env.PUBLIC_URL + './envelope-solid.svg'} alt="Email" />
+            <img className="linkIcon" src={process.env.PUBLIC_URL + '/envelope-solid.svg'} alt="Email" />
               <p className="emailText">Email</p>
               <p className="emailAddressText">ericacradeur@gmail.com</p>
               <p className="sendText">Send a Message</p>
