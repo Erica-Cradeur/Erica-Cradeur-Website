@@ -171,6 +171,13 @@
   @media screen and (max-width: 800px) {
     .slide img{
       width: auto;
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .btn{
+      width: auto;
     }
   }
   
