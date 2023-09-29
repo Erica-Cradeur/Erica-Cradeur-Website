@@ -1,6 +1,6 @@
 .flowerRow{
     height: 6vh;
-    width: 100%;
+    width: auto;
     margin: 0;
     padding: 0;
     background-size:contain;
@@ -8,6 +8,6 @@
 
 @media screen and (max-width: 800px) {
   .flowerRow{
-    padding-top: 40em;
+    
   }
 }

@@ -51,9 +51,9 @@
 @media screen and (max-width: 800px) {
   .aboutme{
     padding-top: 3em;
-    height: 75vh;
+    height: 100vh;
     position: relative;
-    width: 100%;
+    width: auto;
   }
 }
 
