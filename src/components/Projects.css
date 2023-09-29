@@ -132,6 +132,16 @@
     .project{
       display: block;
       height: auto;
+      padding: 1em;
+      margin: 1em;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .projectsList{
+      width: auto;
+      padding: 1em;
+      margin: 1em;
     }
   }
   
@@ -154,8 +164,13 @@
     .projectSkill{
       margin: .25em;
       border-radius: .5em;
-      padding: .3em;
-      padding-left: .5em;
       padding-right: .5em;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    .slide img{
+      width: auto;
+    }
+  }
+  

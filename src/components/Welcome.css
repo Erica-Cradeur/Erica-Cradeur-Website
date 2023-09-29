@@ -107,31 +107,23 @@
 
   @media screen and (max-width: 800px) {
     .welcomesection .content{
-      padding-top: 0 !important;
+      padding-top: 10em !important;
       margin: 0;
-      padding-left: 1em;
-      padding-right: 1em;
     }
   }
 
   @media screen and (max-width: 800px) {
     .welcomesection p{
-      padding-left: 5em;
-      padding-right: 5em;
+      padding-left: 3em;
+      padding-right: 3em;
+      
     }
   }
 
 
   @media screen and (max-width: 800px) {
     .welcomesection{
-      height: 100vh;
-      width: auto;
-    }
-  }
-
-  @media screen and (max-width: 800px) {
-    .banner{
-      height: 100vh;
-      width: auto;
+      height: auto;
+      padding-bottom: 3em;
     }
   }

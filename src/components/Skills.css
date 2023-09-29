@@ -76,13 +76,15 @@
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
-      padding: .5em;
+      padding-left: .5em;
+      padding-right: .5em;
+
     }
   }
   
   @media screen and (max-width: 800px) {
     .SkillIcon{
-      background-color: #E9CCB1;
+      background-color: #d8caa7;
       border-radius: 2em;
       padding: .5em;
       font-weight: bold;

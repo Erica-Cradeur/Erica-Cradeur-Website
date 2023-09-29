@@ -4,9 +4,11 @@
     margin: 0;
     padding: 0;
     background-size:contain;
+    background-color: #929A85;
   }
 
 @media screen and (max-width: 800px) {
   .flowerRow{
+    padding-top: 3em;
   }
 }
