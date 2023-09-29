@@ -5,3 +5,9 @@
     padding: 0;
     background-size:contain;
   }
+
+@media screen and (max-width: 800px) {
+  .flowerRow{
+    padding-top: 40em;
+  }
+}

@@ -1,7 +1,7 @@
 .aboutme {
     background-color: #929A85;
     height: 75vh;
-    width: 100%;
+    width: auto;
     padding-top: 7em;
   }
   
@@ -26,6 +26,7 @@
     justify-content: space-between;
     height: 50vh;
     padding-left: 5em;
+    margin-top: 3em;
   }
   
   .left-side {
@@ -46,3 +47,56 @@
     border-style: solid;
     border-width: 1em;
   }
+
+@media screen and (max-width: 800px) {
+  .aboutme{
+    padding-top: 3em;
+    height: 75vh;
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .aboutmeparagraph{
+    position: absolute;
+    top: 20em;
+    width: auto;
+    margin-left: 3em;
+    margin-right: 3em;
+    font-size: .85em;
+    background-color: transparent;
+    color: white;
+    border-radius: 2em;
+    border-color: #E9CCB1;
+    border-style: solid;
+    border-width: .5em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .aboutme img{
+    position: relative;
+    top: 0 !important;
+    max-height: 10em;
+    width: auto;
+    border-width: .5em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .aboutme .content{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin-top: 3em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .left-side, .right-side{
+    padding: 0 !important;
+  }
+}
