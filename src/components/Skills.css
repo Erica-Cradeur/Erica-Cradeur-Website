@@ -1,7 +1,7 @@
 .skills {
     background-color: #929A85;
     height: 70vh;
-    width: 100%;
+    width: auto;
     padding-top: 7em;
 }
   
@@ -47,4 +47,50 @@
     background-color: white;
     padding: 1em;
     border-radius: 1em;
+  }
+
+  @media screen and (max-width: 800px) {
+    .skillList img{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .skills{
+      height: auto;
+      padding-bottom: 3em;
+      padding-top: 3em;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .skillList{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .skillRow{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      padding: .5em;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .SkillIcon{
+      background-color: #E9CCB1;
+      border-radius: 2em;
+      padding: .5em;
+      font-weight: bold;
+      height: auto;
+      color: white;
+      width: 7.5em;
+      margin: .25em;
+      text-shadow: .1em .1em .5em grey;
+      box-shadow: .5em .5em 1em #6A725D;
+    }
   }

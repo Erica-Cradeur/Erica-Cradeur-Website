@@ -114,6 +114,12 @@
     }
   }
 
+  @media screen and (max-width: 800px) {
+    .welcomesection p{
+      padding-left: 5em;
+      padding-right: 5em;
+    }
+  }
 
 
   @media screen and (max-width: 800px) {

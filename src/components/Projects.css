@@ -120,3 +120,42 @@
     width: 1.5em;
     margin: .5em;
   }
+
+  @media screen and (max-width: 800px) {
+    .projects{
+      height: auto;
+      padding-bottom: 3em;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .project{
+      display: block;
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .projectImage{
+      padding: 0;
+      width: auto;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .projectSkills{
+      display: flex;
+      padding: 0;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .projectSkill{
+      margin: .25em;
+      border-radius: .5em;
+      padding: .3em;
+      padding-left: .5em;
+      padding-right: .5em;
+    }
+  }
