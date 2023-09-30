@@ -101,7 +101,7 @@ function Projects() {
                 <span className="projectSkill">CSS</span>
               </div>
               <span className="projectAbout">
-              A redesigned article of a Wikipedia page with a sleeker, simpler, and easier read.
+                A redesigned article of a Wikipedia page with a sleeker, simpler, and easier read.
               </span><br />
               <a href="https://erica-cradeur.github.io/WikipediaRedesign/"><img className="linkIcon" src={process.env.PUBLIC_URL + '/arrowUp.svg'} alt="ArrowUp" /></a>
               <a href="https://github.com/Erica-Cradeur/WikipediaRedesign"><img className="linkIcon" src={process.env.PUBLIC_URL + '/github.svg'} alt="GitHub" /></a>

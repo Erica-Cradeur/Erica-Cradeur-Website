@@ -3,9 +3,9 @@ import Carousel from './Carousel';
 
 function WikipediaRedesignImage() {
   const images = [
-    './WikipediaRedesign1.PNG',
-    './WikipediaRedesign2.PNG',
-    './WikipediaRedesign3.PNG',
+    process.env.PUBLIC_URL + '/WikipediaRedesign1.PNG',
+    process.env.PUBLIC_URL + '/WikipediaRedesign2.PNG',
+    process.env.PUBLIC_URL + '/WikipediaRedesign3.PNG',
   ];
 
   return (

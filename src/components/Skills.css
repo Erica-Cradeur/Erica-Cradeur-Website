@@ -96,3 +96,9 @@
       box-shadow: .5em .5em 1em #6A725D;
     }
   }
+
+  @media screen and (max-width: 800px) {
+    .flowerRow{
+      padding: 0 !important;
+    }
+  }

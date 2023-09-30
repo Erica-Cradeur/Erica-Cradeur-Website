@@ -3,8 +3,8 @@ import Carousel from './Carousel';
 
 function RunverseImage() {
   const images = [
-    './RunverseScreenshot.png',
-    './Runverse2Screenshot.png',
+    process.env.PUBLIC_URL + '/RunverseScreenshot.png',
+    process.env.PUBLIC_URL + '/Runverse2Screenshot.png',
   ];
 
   return (

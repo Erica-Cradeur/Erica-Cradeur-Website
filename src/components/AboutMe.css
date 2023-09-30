@@ -49,12 +49,12 @@
   }
 
 @media screen and (max-width: 800px) {
-  .aboutme{
+  #aboutme{
     padding-top: 3em;
     padding-bottom: 3em;
-    height: auto;
+    height: 100%;
     position: relative;
-    width: auto;
+    width: 100%;
   }
 }
 
@@ -99,5 +99,5 @@
 @media screen and (max-width: 800px) {
   .left-side, .right-side{
     padding: 0 !important;
-  }
+    }
 }
