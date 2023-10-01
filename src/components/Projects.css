@@ -149,6 +149,7 @@
       padding: 0;
       width: 100%;
       height: auto;
+      padding-top: 3em;
     }
   }
 
@@ -185,9 +186,24 @@
   }
 
   @media screen and (max-width: 800px) {
-    .slide img{
-      width: auto;
-      height: 15em;
+    .projectImage img{
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .projectImage{
+      justify-content: center;
+      text-align: center;
     }
   }
   
+  
+  @media screen and (max-width: 800px) {
+    .slider {
+      width: 100%;
+      height: auto;
+      padding: 0;
+    }
+  }

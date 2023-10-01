@@ -19,5 +19,6 @@
 @media screen and (max-width: 800px) {
   .flowerRow img{
     height: auto;
+    padding-top: 7.5em;
   }
 }
