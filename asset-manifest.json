@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Erica-Cradeur-Website/static/css/main.e69afdf3.css",
+    "main.css": "/Erica-Cradeur-Website/static/css/main.de82756d.css",
     "main.js": "/Erica-Cradeur-Website/static/js/main.f9e302d1.js",
     "index.html": "/Erica-Cradeur-Website/index.html",
-    "main.e69afdf3.css.map": "/Erica-Cradeur-Website/static/css/main.e69afdf3.css.map",
+    "main.de82756d.css.map": "/Erica-Cradeur-Website/static/css/main.de82756d.css.map",
     "main.f9e302d1.js.map": "/Erica-Cradeur-Website/static/js/main.f9e302d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.e69afdf3.css",
+    "static/css/main.de82756d.css",
     "static/js/main.f9e302d1.js"
   ]
 }
