@@ -160,6 +160,18 @@
       background-color: #6A725D;
     }
   } 
+
+  @media screen and (max-width: 800px) {
+    .btn-prev{
+      left: 5%;
+    }
+  } 
+
+  @media screen and (max-width: 800px) {
+    .btn-next{
+      right: 8%;
+    }
+  } 
   
   @media screen and (max-width: 800px) {
     .projectSkills{
