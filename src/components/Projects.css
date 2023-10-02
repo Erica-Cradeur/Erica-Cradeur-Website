@@ -156,14 +156,14 @@
   
   @media screen and (max-width: 800px) {
     .BackButton,  .NextButton{
-      height: 5em;
+      height: 4em;
       background-color: #6A725D;
     }
   } 
 
   @media screen and (max-width: 800px) {
     .btn-prev{
-      left: 5%;
+      left: 2.5%;
     }
   } 
 
