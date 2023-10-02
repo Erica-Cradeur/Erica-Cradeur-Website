@@ -156,7 +156,7 @@
   
   @media screen and (max-width: 800px) {
     .BackButton,  .NextButton{
-      height: 10em;
+      height: 5em;
       background-color: #6A725D;
     }
   } 
