@@ -25,7 +25,7 @@ function Projects() {
                 <span className="projectSkill">React.js</span>
                 <span className="projectSkill">Node.js</span>
                 <span className="projectSkill">NPM</span>
-                <span className="projectSkill">JavaScript</span>
+                <span className="projectSkill">JavaScript</span><br />
                 <span className="projectSkill">HTML</span>
                 <span className="projectSkill">CSS</span>
                 <span className="projectSkill">Flexbox</span>
@@ -53,7 +53,7 @@ function Projects() {
                 <span className="projectSkill">HTML</span>
                 <span className="projectSkill">CSS</span>
                 <span className="projectSkill">PWA</span>
-                <span className="projectSkill">FlexBox</span>
+                <span className="projectSkill">FlexBox</span><br />
                 <span className="projectSkill">Table</span>
               </div>
               <span className="projectAbout">
