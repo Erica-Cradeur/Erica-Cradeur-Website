@@ -124,7 +124,6 @@
     .projects{
       height: auto;
       padding-bottom: 3em;
-      
     }
   }
 
@@ -134,7 +133,6 @@
       height: auto;
       padding: 1em;
       margin: 1em;
-
     }
   }
 
@@ -143,7 +141,6 @@
       width: auto;
       padding: .25em;
       margin: .5em;
-      
     }
   }
 
@@ -155,7 +152,21 @@
       height: auto;
       padding-top: 3em;
     }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .BackButton,  .NextButton{
+      height: 25em;
+      background-color: #6A725D;
+    }
   } 
+
+  @media screen and (max-width: 800px) {
+    .btn-prev{
+      top: 42.5%;
+      left: 0%;
+    }
+  }
   
   @media screen and (max-width: 800px) {
     .projectSkills{
